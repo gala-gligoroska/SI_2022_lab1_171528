@@ -1,5 +1,6 @@
 apples x7
 bananas x2
 oranges x2
-avocados x8
+peaches x8
 coconuts x7
+mangos x1
