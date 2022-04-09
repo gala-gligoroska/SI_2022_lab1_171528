@@ -1,0 +1,257 @@
+step 4:
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1>git clone https://github.com/gala-gligoroska/SI_2022_lab1_171528.git
+Cloning into 'SI_2022_lab1_171528'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1>cd SI_2022_lab1_171528
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>
+
+step 5:
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        shopping-list.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git add .
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git commit -m "Add 5 items to the shopping list"
+[master ded4828] Add 5 items to the shopping list
+ 1 file changed, 5 insertions(+)
+ create mode 100644 shopping-list.txt
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>
+
+step 6:
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   shopping-list.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git add .
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git commit -m "Add quantities to the items."
+[master 672d998] Add quantities to the items.
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>
+
+step 7:
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git branch branch1
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git branch branch2
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>
+
+step 9:
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 683 bytes | 113.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gala-gligoroska/SI_2022_lab1_171528.git
+   3c7efe1..672d998  master -> master
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git checkout branch1
+Switched to branch 'branch1'
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git push
+fatal: The current branch branch1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch1
+
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git push --set-upstream origin branch1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'branch1' on GitHub by visiting:
+remote:      https://github.com/gala-gligoroska/SI_2022_lab1_171528/pull/new/branch1
+remote:
+To https://github.com/gala-gligoroska/SI_2022_lab1_171528.git
+ * [new branch]      branch1 -> branch1
+branch 'branch1' set up to track 'origin/branch1'.
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git checkout branch2
+Switched to branch 'branch2'
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git push --set-upstream origin branch2
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'branch2' on GitHub by visiting:
+remote:      https://github.com/gala-gligoroska/SI_2022_lab1_171528/pull/new/branch2
+remote:
+To https://github.com/gala-gligoroska/SI_2022_lab1_171528.git
+ * [new branch]      branch2 -> branch2
+branch 'branch2' set up to track 'origin/branch2'.
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>
+
+step 10 i step 11:
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git checkout branch1
+Switched to branch 'branch1'
+Your branch is up to date with 'origin/branch1'.
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git add .
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git commit -m "Change quantity of item #5"
+[branch1 7d28cd0] Change quantity of item #5
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>
+
+step 12 i step 13:
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git add .
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git commit -m "Change quantity of item #2"
+[master f1f7e2f] Change quantity of item #2
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>
+
+step 14:
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 362 bytes | 181.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gala-gligoroska/SI_2022_lab1_171528.git
+   672d998..f1f7e2f  master -> master
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git checkout branch1
+Switched to branch 'branch1'
+Your branch is ahead of 'origin/branch1' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 341 bytes | 341.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/gala-gligoroska/SI_2022_lab1_171528.git
+   672d998..7d28cd0  branch1 -> branch1
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>
+
+step 15 i step 16:
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git checkout branch2
+Switched to branch 'branch2'
+Your branch is up to date with 'origin/branch2'.
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git add .
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git commit -m "Modify item #4"
+[branch2 2701891] Modify item #4
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>
+
+step 18:
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git reset --mixed HEAD~1
+Unstaged changes after reset:
+M       shopping-list.txt
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git status
+On branch branch2
+Your branch is up to date with 'origin/branch2'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   shopping-list.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git add .
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git commit -m "Modify item #4 and add item #6"
+[branch2 d394ea5] Modify item #4 and add item #6
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>
+
+step 20:
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git merge branch1
+Auto-merging shopping-list.txt
+Merge made by the 'ort' strategy.
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>
+
+step 21:
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git merge branch2
+Auto-merging shopping-list.txt
+CONFLICT (content): Merge conflict in shopping-list.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git merge --continue
+error: Committing is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+U       shopping-list.txt
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   shopping-list.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git add .
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>git commit -m "Resolved conflicts"
+[master 37702e1] Resolved conflicts
+
+C:\Users\HP\Desktop\FINKI\desetti semestar\softversko\lab1\SI_2022_lab1_171528>
