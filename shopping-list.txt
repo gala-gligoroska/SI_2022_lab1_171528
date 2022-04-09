@@ -1,5 +1,5 @@
-apples
-bananas
-oranges
-avocados
-coconuts
+apples x7
+bananas x4
+oranges x2
+avocados x8
+coconuts x2
